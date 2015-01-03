@@ -1,10 +1,19 @@
-
 <!DOCTYPE html>
+<!--
+  Written by:
+  ________    ____       ____           ____       ____
+  |  _____|  /    \     /    \         /    \     /    \
+  | |        |   _ \   / _   |        |   _ \   / _   |
+  | |        |  | \ \_/ / |  |       |  | \ \_/ / |  |
+  | |        |  |  \   /  |  |      |  |  \   /  |  |
+  | |____    |  |   \_/   |  |    |  |   \_/   |  |
+  |_______|  |__|         |__|   |__|         |__|
+-->
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Claudiu's Music App</title>
+	<title>Claudius' Music DL App</title>
 	<link rel="stylesheet" href="css/jquery-mobile/jquery.mobile-1.4.2.min.css">
 	<link rel="stylesheet" href="_assets/css/jqm-demos.css">
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
@@ -25,7 +34,7 @@
 			<h1>Search for a Track</h1>
 
 			<div class="ui-field-contain">
-				<input type="search" name="search_box" id="search_box" placeholder="Search a song title" value="" onchange="search()">
+				<input type="search" name="search_box" id="search_box" placeholder="Search keywords of a song and the artist... i.e. jackson beat it" value="" onchange="search()">
 			</div>
 			<div data-role="list-divider" data-theme="b">
 				<h1>Search Results <span id="search_count"></span></h1>
@@ -33,16 +42,16 @@
 
 			<ul data-role="listview" data-split-icon="plus" data-theme="a" data-split-theme="b" data-inset="true" id="list_view" name="list_view" >
 
-			</ul> 
+			</ul>
 
 		</div><!-- /content -->
 
 		<!-- panel Left -->
 		<div data-role="panel" class="jqm-navmenu-panel" data-position="left" data-display="overlay" data-theme="a">
 			<ul class="jqm-list ui-alt-icon ui-nodisc-icon">
-				<li data-filtertext="demos homepage" data-icon="home"><a href=".././">Home</a></li>
-				<li data-filtertext="introduction overview getting started"><a href="../intro/" data-ajax="false">About</li>
-			</ul>
+				<li data-filtertext="homepage" data-icon="home"><a href="#">Welcome</a></li>
+<!-- 				<li data-filtertext="introduction overview getting started"><a href="" data-ajax="false">About</li>
+ -->			</ul>
 		</div><!-- /panel Left -->
 
 
